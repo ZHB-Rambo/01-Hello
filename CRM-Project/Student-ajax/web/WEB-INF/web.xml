@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>ServletService</servlet-name>
+        <servlet-class>com.student.servlet.ServletService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletService</servlet-name>
+        <url-pattern>/ServletService/addServlet</url-pattern>
+        <url-pattern>/ServletService/deleteServlet</url-pattern>
+        <url-pattern>/ServletService/updateServlet</url-pattern>
+        <url-pattern>/ServletService/selectServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
